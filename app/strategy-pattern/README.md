@@ -1,4 +1,9 @@
 # 📚 Strategy Pattern
+- Follows Dependency Inversion Principle.
+- Create strategies that implement a common interface ("contract").
+- Declare dependency to the common interface rather than a concrete strategy in the container class ("OAuthContext").
+- Consumer calls the `authenticate()` method of the container class, which internally calls the `authenticate()` method declared in `IOAuth` contract.
+
 ![strategy-design-pattern](../../assets/strategy-pattern.jpg)
 
 ## 💡 Use Case
