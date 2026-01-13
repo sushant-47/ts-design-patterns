@@ -1,4 +1,9 @@
 # 📚 Dependency Injection Pattern
+- Follows Single Responsibility, Open/Closed Principles.
+- A `container` is responsible for providing the dependencies / concrete implementations.
+- A single container holds the mechanism of instantiating, providing all the dependencies.
+- Consumer only declares the dependency and is not concerned with initialization logic.
+
 ![dependency-injection-design-pattern](../../assets/dependency-injection.jpg)
 
 ## 💡 Use Case

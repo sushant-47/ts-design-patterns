@@ -8,7 +8,7 @@ export class Container {
       const isInjectable = Reflect.getMetadata('injectable', target);
       if (!isInjectable) return;
 
-      // get the typeof parameters of constructor
+      // get the child dependencies from constructor
       const paramTypes = Reflect.getMetadata('design:paramtypes', target) || [];
 
       // resolve dependecies of current dependency
