@@ -1,4 +1,9 @@
 # 📚 Chain of Responsibility Pattern
+- Follows Single Responsibility, Open/Closed and Interface Segregation Principles.
+- Each handler in the chain is functionally different and separate from other handlers in the same chain.
+- The chain should stop executing if any handler signals an end.
+
+
 ![chain-of-responsibility-cover](../../assets/chain-of-res.jpg)
 
 ## 💡 Use Case
