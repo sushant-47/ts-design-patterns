@@ -1,6 +1,7 @@
 {
   "scripts": {
     "start": "ts-node proxy",
+    "start:async": "ts-node async",
     "start:bad": "ts-node bad-practice"
   },
   "devDependencies": {
